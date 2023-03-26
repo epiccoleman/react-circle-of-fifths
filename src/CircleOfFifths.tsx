@@ -137,9 +137,10 @@ return <>
 
 
         <circle cx="50%" cy="50%" r="40%" stroke="currentColor" strokeWidth="5" fill="transparent" />
+        <Path/>
         {/* <path */}
-        {`<path d="${segmentPath(200, 200, 100, 10, 0, 45)}"></path>`}
-        <path d="M300.00,200.00A100,100,0,0,1,270.71,270.71L207.07,207.07A10,10,0,0,0,210.00,200.00Z"></path>
+        {/* {`<path d="${segmentPath(200, 200, 100, 10, 0, 45)}"></path>`}
+        <path d="M300.00,200.00A100,100,0,0,1,270.71,270.71L207.07,207.07A10,10,0,0,0,210.00,200.00Z"></path> */}
         {/* <path d="M200,200L300,300" ></path> */}
 
         {/* {data.map((n) => segment(n, 12, 10, 10, 100 ))} */}
@@ -149,4 +150,10 @@ return <>
     </div>
 </>
 
+}
+
+const Path = () => {
+    return (
+        <path d={segmentPath(200, 200, 100, 10, 0, 45)}></path>
+    )
 }
