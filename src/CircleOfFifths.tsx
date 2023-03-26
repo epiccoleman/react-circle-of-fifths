@@ -139,7 +139,9 @@ return <>
 
         <circle cx="50%" cy="50%" r="40%" stroke="currentColor" strokeWidth="5" fill="transparent" />
         {/* <path */}
-        {`<path stroke="black" stroke-width="2" d="${segmentPath(200, 200, 100, 10, 0, 45)}`}
+        {/* {`<path d="${segmentPath(0, 0, 100, 10, 0, 45)}" stroke="black" stroke-width="2"></path>` } */}
+        <path d="M 300.00 200.00 A 100,100 0 0,1 270.71,270.71 L207.07,207.07A10,10,0,0,0,210.00,200.00Z"></path>
+        {/* <path d="M200,200L300,300" ></path> */}
 
         {/* {data.map((n) => segment(n, 12, 10, 10, 100 ))} */}
         {/* <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text> */}
