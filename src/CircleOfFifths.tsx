@@ -112,6 +112,7 @@ return <>
         <svg className="m-auto text-lime-900" version="1.1"
         width="800" height="800"
         xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 400 400"
         >
 
 
