@@ -63,61 +63,73 @@ const CIRCLE_OF_FIFTHS_DATA = [
     {
         note: "C",
         relativeMinor: "Am",
+        diminished: "Bdim",
         keySignature: ""
     },
     {
         note: "G",
         relativeMinor: "Em",
+        diminished: "Bdim",
         keySignature: "s"
     },
     {
         note: "D",
         relativeMinor: "Bm",
+        diminished: "Bdim",
         keySignature: "ss"
     },
     {
         note: "A",
         relativeMinor: "Fsm",
+        diminished: "Bdim",
         keySignature: "sss"
     },
     {
         note: "E",
         relativeMinor: "Csm",
+        diminished: "Bdim",
         keySignature: "ssss"
     },
     {
         note: "B",
         relativeMinor: "Gsm",
+        diminished: "Bdim",
         keySignature: "sssss"
     },
     {
         note: "Gb",
         relativeMinor: "Dsm",
+        diminished: "Bdim",
         keySignature: "sssss"
     },
     {
         note: "Db",
         relativeMinor: "Bbm",
+        diminished: "Bdim",
         keySignature: "bbbbb"
     },
     {
         note: "Ab",
         relativeMinor: "Fm",
+        diminished: "Bdim",
         keySignature: "bbbb"
     },
     {
         note: "Eb",
         relativeMinor: "Cm",
+        diminished: "Bdim",
         keySignature: "bbb"
     },
     {
         note: "Bb",
         relativeMinor: "Gm",
+        diminished: "Bdim",
         keySignature: "bb"
     },
     {
         note: "F",
         relativeMinor: "Dm",
+        diminished: "Bdim",
         keySignature: "b"
     },
 ]
@@ -136,15 +148,13 @@ return <>
 
 
 
-        <circle cx="50%" cy="50%" r="40%" stroke="currentColor" strokeWidth="5" fill="transparent" />
-        <Path/>
-        {/* <path */}
-        {/* {`<path d="${segmentPath(200, 200, 100, 10, 0, 45)}"></path>`}
-        <path d="M300.00,200.00A100,100,0,0,1,270.71,270.71L207.07,207.07A10,10,0,0,0,210.00,200.00Z"></path> */}
-        {/* <path d="M200,200L300,300" ></path> */}
+        <circle cx="200" cy="200" r="180" stroke="currentColor" strokeWidth="1" fill="transparent" />
+        {
+            ...data.map((v, i) => {
+                return <CircleOfFifthsWedge x={200} y={200} r0={100} r1={10} d0={i * 30} d1={((i+1) * 30) + 1}/>
+            })
+        }
 
-        {/* {data.map((n) => segment(n, 12, 10, 10, 100 ))} */}
-        {/* <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text> */}
 </svg>
 
     </div>
@@ -152,8 +162,16 @@ return <>
 
 }
 
-const Path = () => {
+const CircleOfFifthsWedge = ({x, y, r0, r1, d0, d1} ) => {
+    /**
+     * @param x - x offset for the center of the circle
+     * @param y - y offset for the center of the circle
+     * @param r0 - outer radius of the segment, i.e. how far out it extends from the center of the circle
+     * @param r1 - inner radius of the segment - i.e. where it starts. if this were 0, the segment would touch the center
+     * @param d0 - where the segment starts in the circle - i.e. the degrees from reference of one edge
+     * @param d1 - where the segment end in the circle - i.e. the degrees from reference of other edge
+     */
     return (
-        <path d={segmentPath(200, 200, 100, 10, 0, 45)}></path>
+        <path d={segmentPath(x, y, r0, r1, d0, d1)} stroke="black" fill="green" ></path>
     )
 }
