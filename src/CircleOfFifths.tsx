@@ -132,15 +132,14 @@ return <>
         <svg className="m-auto text-lime-900" version="1.1"
         width="800" height="800"
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 400 400"
-        >
+        viewBox="0 0 400 400" >
 
 
 
         <circle cx="50%" cy="50%" r="40%" stroke="currentColor" strokeWidth="5" fill="transparent" />
         {/* <path */}
-        {/* {`<path d="${segmentPath(0, 0, 100, 10, 0, 45)}" stroke="black" stroke-width="2"></path>` } */}
-        <path d="M 300.00 200.00 A 100,100 0 0,1 270.71,270.71 L207.07,207.07A10,10,0,0,0,210.00,200.00Z"></path>
+        {`<path d="${segmentPath(200, 200, 100, 10, 0, 45)}"></path>`}
+        <path d="M300.00,200.00A100,100,0,0,1,270.71,270.71L207.07,207.07A10,10,0,0,0,210.00,200.00Z"></path>
         {/* <path d="M200,200L300,300" ></path> */}
 
         {/* {data.map((n) => segment(n, 12, 10, 10, 100 ))} */}
@@ -148,8 +147,6 @@ return <>
 </svg>
 
     </div>
-
-
 </>
 
 }
