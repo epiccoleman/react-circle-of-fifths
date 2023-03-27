@@ -138,7 +138,6 @@ export const CircleOfFifths = () => {
 
 const data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
-
 return <>
     <div className="container py-4 m-auto">
         <svg className="m-auto text-lime-900" version="1.1"
@@ -146,17 +145,23 @@ return <>
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 400 400" >
 
-
-
         <circle cx="200" cy="200" r="180" stroke="currentColor" strokeWidth="1" fill="transparent" />
         {
             ...data.map((v, i) => {
-                return <CircleOfFifthsWedge x={200} y={200} r0={100} r1={10} d0={i * 30} d1={((i+1) * 30) + 1}/>
+                return <CircleOfFifthsWedge x={200} y={200} r0={180} r1={120} d0={i * 30} d1={((i+1) * 30) + 1}/>
             })
         }
-
-</svg>
-
+        {
+            ...data.map((v, i) => {
+                return <CircleOfFifthsWedge x={200} y={200} r0={120} r1={80} d0={i * 30} d1={((i+1) * 30) + 1}/>
+            })
+        }
+        {
+            ...data.map((v, i) => {
+                return <CircleOfFifthsWedge x={200} y={200} r0={80} r1={50} d0={i * 30} d1={((i+1) * 30) + 1}/>
+            })
+        }
+        </svg>
     </div>
 </>
 
@@ -172,6 +177,7 @@ const CircleOfFifthsWedge = ({x, y, r0, r1, d0, d1} ) => {
      * @param d1 - where the segment end in the circle - i.e. the degrees from reference of other edge
      */
     return (
-        <path d={segmentPath(x, y, r0, r1, d0, d1)} stroke="black" fill="green" ></path>
+        <path d={segmentPath(x, y, r0, r1, d0, d1)} stroke="black" strokeWidth="2" fill="green" ></path>
     )
+
 }
