@@ -44,24 +44,6 @@ function segmentPath(x, y, r0, r1, d0, d1) {
 
 const CIRCLE_OF_FIFTHS_DATA = [
     {
-        note: "C",
-        relativeMinor: "Am",
-        diminished: "B°",
-        keySignature: ""
-    },
-    {
-        note: "G",
-        relativeMinor: "Em",
-        diminished: "F#°",
-        keySignature: "#"
-    },
-    {
-        note: "D",
-        relativeMinor: "Bm",
-        diminished: "C#°",
-        keySignature: "##"
-    },
-    {
         note: "A",
         relativeMinor: "F#m",
         diminished: "G#°",
@@ -115,6 +97,24 @@ const CIRCLE_OF_FIFTHS_DATA = [
         diminished: "E°",
         keySignature: "b"
     },
+    {
+        note: "C",
+        relativeMinor: "Am",
+        diminished: "B°",
+        keySignature: ""
+    },
+    {
+        note: "G",
+        relativeMinor: "Em",
+        diminished: "F#°",
+        keySignature: "#"
+    },
+    {
+        note: "D",
+        relativeMinor: "Bm",
+        diminished: "C#°",
+        keySignature: "##"
+    },
 ]
 
 export const CircleOfFifths = () => {
@@ -141,7 +141,7 @@ return <>
         }
         {
             ...data.map((v, i) => {
-                return <CircleOfFifthsWedge x={200} y={200} r0={80} r1={50} d0={i * 30} d1={((i+1) * 30)}/>
+                return <CircleOfFifthsWedge x={200} y={200} r0={80} r1={50} d0={i * 30} d1={((i+1) * 30)} onClick={() => console.log("foo")} />
             })
         }
         </g>
@@ -171,7 +171,7 @@ return <>
 
 }
 
-const CircleOfFifthsWedge = ({x, y, r0, r1, d0, d1} ) => {
+const CircleOfFifthsWedge = ({x, y, r0, r1, d0, d1, onClick} ) => {
     /**
      * @param x - x offset for the center of the circle
      * @param y - y offset for the center of the circle
@@ -181,7 +181,7 @@ const CircleOfFifthsWedge = ({x, y, r0, r1, d0, d1} ) => {
      * @param d1 - where the segment end in the circle - i.e. the degrees from reference of other edge
      */
     return (
-        <path d={segmentPath(x, y, r0, r1, d0, d1)} stroke="black" strokeWidth="2" fill="#84CC16" ></path>
+        <path onClick={onClick ? onClick : null} d={segmentPath(x, y, r0, r1, d0, d1)} stroke="black" strokeWidth="2" fill="#84CC16" ></path>
     )
 
 }
