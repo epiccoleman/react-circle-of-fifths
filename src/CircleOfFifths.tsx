@@ -42,22 +42,6 @@ function segmentPath(x, y, r0, r1, d0, d1) {
   ].join("");
 }
 
-// function segment(index, segments, size, radius, width) {
-//     const center = size / 2
-//     const degrees = 360 / segments
-//     const start = degrees * index
-//     const end = (degrees * (index + 1) + 1)
-//     const path = segmentPath(center, center, radius, radius-width, start, end)
-//     return `<path stroke="black" stroke-width="2" d="${path}" />`
-//   }
-
-//   function posXY(center, radius, angle) {
-//     return [
-//       center + radius * Math.cos(angle * Math.PI / 180.0),
-//       center + radius * Math.sin(angle * Math.PI / 180.0)
-//     ]
-//   }
-
 // todo: s is sharp, b is flat - figure out how to render em better?
 const CIRCLE_OF_FIFTHS_DATA = [
     {
@@ -146,21 +130,35 @@ return <>
         viewBox="0 0 400 400" >
 
         <circle cx="200" cy="200" r="180" stroke="currentColor" strokeWidth="1" fill="transparent" />
+        {/* <g style={{transform: "rotate(15deg)", transformOrigin: "200px 200px"}}> */}
+        <g>
         {
             ...data.map((v, i) => {
-                return <CircleOfFifthsWedge x={200} y={200} r0={180} r1={120} d0={i * 30} d1={((i+1) * 30) + 1}/>
+                return <CircleOfFifthsWedge x={200} y={200} r0={180} r1={120} d0={i * 30} d1={((i+1) * 30)}/>
             })
         }
         {
             ...data.map((v, i) => {
-                return <CircleOfFifthsWedge x={200} y={200} r0={120} r1={80} d0={i * 30} d1={((i+1) * 30) + 1}/>
+                return <CircleOfFifthsWedge x={200} y={200} r0={120} r1={80} d0={i * 30} d1={((i+1) * 30)}/>
             })
         }
         {
             ...data.map((v, i) => {
-                return <CircleOfFifthsWedge x={200} y={200} r0={80} r1={50} d0={i * 30} d1={((i+1) * 30) + 1}/>
+                return <CircleOfFifthsWedge x={200} y={200} r0={80} r1={50} d0={i * 30} d1={((i+1) * 30)}/>
             })
         }
+        </g>
+        <g>
+        {
+            ...CIRCLE_OF_FIFTHS_DATA.map((v, i) => {
+                const [center_x, center_y] = polarToCartesian(200, 200, 150, (i *30))
+                var svgNS = "http://www.w3.org/2000/svg";
+                var txt = document.createElementNS(svgNS, 'text')
+
+                return <text style={{textAnchor: "middle", dominantBaseline: "central"}} x={center_x} y={center_y} >{v.note}</text>
+            })
+        }
+        </g>
         </svg>
     </div>
 </>
