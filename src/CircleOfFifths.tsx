@@ -141,7 +141,7 @@ return <>
         }
         {
             ...data.map((v, i) => {
-                return <CircleOfFifthsWedge x={200} y={200} r0={80} r1={50} d0={i * 30} d1={((i+1) * 30)} onClick={() => console.log("foo")} />
+                return <CircleOfFifthsWedge x={200} y={200} r0={80} r1={50} d0={i * 30} d1={((i+1) * 30)}  />
             })
         }
         </g>
@@ -171,7 +171,7 @@ return <>
 
 }
 
-const CircleOfFifthsWedge = ({x, y, r0, r1, d0, d1, onClick} ) => {
+const CircleOfFifthsWedge = ({x, y, r0, r1, d0, d1, } ) => {
     /**
      * @param x - x offset for the center of the circle
      * @param y - y offset for the center of the circle
@@ -181,7 +181,6 @@ const CircleOfFifthsWedge = ({x, y, r0, r1, d0, d1, onClick} ) => {
      * @param d1 - where the segment end in the circle - i.e. the degrees from reference of other edge
      */
     return (
-        <path onClick={onClick ? onClick : null} d={segmentPath(x, y, r0, r1, d0, d1)} stroke="black" strokeWidth="2" fill="#84CC16" ></path>
+        <path d={segmentPath(x, y, r0, r1, d0, d1)} stroke="black" strokeWidth="2" fill="#84CC16" ></path>
     )
-
 }
