@@ -46,57 +46,57 @@ function segmentPath(x, y, r0, r1, d0, d1) {
 const CIRCLE_OF_FIFTHS_DATA = [
     {
         note: "A",
-        relativeMinor: "F#m",
-        diminished: "G#°",
-        keySignature: "###"
+        relativeMinor: "F♯m",
+        diminished: "G♯°",
+        keySignature: "♯♯♯"
     },
     {
         note: "E",
-        relativeMinor: "C#m",
-        diminished: "D#°",
-        keySignature: "####"
+        relativeMinor: "C♯m",
+        diminished: "D♯°",
+        keySignature: "♯♯♯♯"
     },
     {
         note: "B",
-        relativeMinor: "G#m",
-        diminished: "A#°",
-        keySignature: "#####"
+        relativeMinor: "G♯m",
+        diminished: "A♯°",
+        keySignature: "♯♯♯♯♯"
     },
     {
-        note: "Gb",
-        relativeMinor: "D#m",
-        diminished: "F#°",
-        keySignature: "######"
+        note: "G♭",
+        relativeMinor: "D♯m",
+        diminished: "F♯°",
+        keySignature: "♯♯♯♯♯♯"
     },
     {
-        note: "Db",
-        relativeMinor: "Bbm",
+        note: "D♭",
+        relativeMinor: "B♭m",
         diminished: "C°",
-        keySignature: "bbbbb"
+        keySignature: "♭♭♭♭♭"
     },
     {
-        note: "Ab",
+        note: "A♭",
         relativeMinor: "Fm",
         diminished: "G°",
-        keySignature: "bbbb"
+        keySignature: "♭♭♭♭"
     },
     {
-        note: "Eb",
+        note: "E♭",
         relativeMinor: "Cm",
         diminished: "D°",
-        keySignature: "bbb"
+        keySignature: "♭♭♭"
     },
     {
-        note: "Bb",
+        note: "B♭",
         relativeMinor: "Gm",
         diminished: "A°",
-        keySignature: "bb"
+        keySignature: "♭♭"
     },
     {
         note: "F",
         relativeMinor: "Dm",
         diminished: "E°",
-        keySignature: "b"
+        keySignature: "♭"
     },
     {
         note: "C",
@@ -107,14 +107,14 @@ const CIRCLE_OF_FIFTHS_DATA = [
     {
         note: "G",
         relativeMinor: "Em",
-        diminished: "F#°",
-        keySignature: "#"
+        diminished: "F♯°",
+        keySignature: "♯"
     },
     {
         note: "D",
         relativeMinor: "Bm",
-        diminished: "C#°",
-        keySignature: "##"
+        diminished: "C♯°",
+        keySignature: "♯♯"
     },
 ]
 
