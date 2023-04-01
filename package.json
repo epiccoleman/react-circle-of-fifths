@@ -1,16 +1,21 @@
 {
   "name": "react-circle-of-fifths",
-  "version": "0.0.1",
+  "version": "0.0.1-alpha",
   "description": "An interactive Circle of Fifths component for React",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/epiccoleman/react-circle-of-fifths",
   "author": "Eric Coleman <eric@epiccoleman.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./lib && tsc && cp ./src/CircleOfFifths.css lib/"
+  },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@types/react": "^18.0.31",
     "@types/react-dom": "^18.0.11",
     "typescript": "^5.0.3"
