@@ -1,6 +1,7 @@
 // Circle of Fifths component heavily inspired by: https://blog.logrocket.com/interactive-svg-circle-of-fifths/
 
 import React from "react";
+import "./CircleOfFifths.css"
 
 function polarToCartesian(x, y, r, degrees) {
     /**
@@ -158,7 +159,7 @@ return <>
                 return <text style={{textAnchor: "middle", dominantBaseline: "central", fontSize: "small"}} x={center_x} y={center_y} >{v.relativeMinor}</text>
             })
         }
-         {
+        {
             ...CIRCLE_OF_FIFTHS_DATA.map((v, i) => {
                 const [center_x, center_y] = polarToCartesian(200, 200, 65, (i *30))
                 return <text style={{textAnchor: "middle", dominantBaseline: "central", fontSize: "xx-small"}} x={center_x} y={center_y} >{v.diminished}</text>
@@ -181,6 +182,6 @@ const CircleOfFifthsWedge = ({x, y, r0, r1, d0, d1, } ) => {
      * @param d1 - where the segment end in the circle - i.e. the degrees from reference of other edge
      */
     return (
-        <path d={segmentPath(x, y, r0, r1, d0, d1)} stroke="black" strokeWidth="2" fill="#84CC16" ></path>
+        <path className="cf-wedge" d={segmentPath(x, y, r0, r1, d0, d1)} stroke="black" strokeWidth="2" fill="#84CC16" ></path>
     )
 }
