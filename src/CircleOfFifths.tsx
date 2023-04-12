@@ -118,7 +118,11 @@ const CIRCLE_OF_FIFTHS_DATA = [
     },
 ]
 
-export const CircleOfFifths = (props) => {
+export type CircleOfFifthsProps = {
+    handleKeySelection: (selection: string) => void;
+}
+
+export const CircleOfFifths = (props: CircleOfFifthsProps) => {
 
 const handleClick = (keySelection) => {
     if (props.handleKeySelection) {

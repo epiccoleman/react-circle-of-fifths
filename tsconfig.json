@@ -6,11 +6,11 @@
     "noImplicitAny": false,
     "strictNullChecks": true,
     "removeComments": true,
-    "declaration": false,
+    "declaration": true,
     "sourceMap": true,
     "jsx": "react",
     "typeRoots": [
-      "index.d.ts",
+      "src/index.d.ts",
       "node_modules/@types"
     ]
   },
