@@ -4,6 +4,6 @@
     stroke-width: 1px; */
 }
 
-.cf-wedge:hover {
+.cf-wedge.selectable:hover {
     fill: #65A30D;
 }
