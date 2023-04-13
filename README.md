@@ -67,4 +67,4 @@ Note: One planned feature for this component is to allow styling via props. If t
 
 # Note
 
-This project is currently in alpha development and may not be ready for production use. If you'd like to help, file an issue or email me at eric@epiccoleman.com!
+This project is currently in early development. The component is fairly simple and should be ready for basic usage. However, some planned features are still missing. If you'd like to help, file an issue or email me at eric@epiccoleman.com!
