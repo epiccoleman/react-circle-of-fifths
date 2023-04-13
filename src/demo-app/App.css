@@ -1,0 +1,13 @@
+.cf-wedge {
+    --cf-major-keys-fill: blue;
+    --cf-major-keys-fill-hover: #65A30D;
+    --cf-major-keys-fill-selected:  #65A30D;
+    --cf-minor-keys-fill: #84CC16;
+    --cf-minor-keys-fill-hover: #65A30D;
+    --cf-minor-keys-fill-selected:  #65A30D;
+    --cf-diminished-keys-color: #84CC16;
+
+    --cf-stroke-color: black;
+    --cf-stroke-width: 2px;
+    --cf-text-color: black;
+}

@@ -3,6 +3,8 @@ import { useState } from "react";
 
 import { CircleOfFifths } from "../CircleOfFifths";
 
+import "./App.css"
+
 export function App() {
   const [key, setKey] = useState("C");
 
