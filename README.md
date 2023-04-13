@@ -1,5 +1,7 @@
 # React Circle of Fifths
 
+<img src="./cf.png">
+
 [React Circle of Fifths on npm](https://www.npmjs.com/package/react-circle-of-fifths)
 
 A beautiful, interactive, and highly customizable Circle of Fifths component for React.
