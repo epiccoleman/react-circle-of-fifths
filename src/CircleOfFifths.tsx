@@ -34,17 +34,17 @@ return <svg version="1.1"
         <g style={{transform: "rotate(-15deg)", transformOrigin: `${CF_CENTER}px ${CF_CENTER}px`}}>
         {
             ...CIRCLE_OF_FIFTHS_DATA.map((v, i) => {
-                return <CircleOfFifthsWedge onClick={() => {handleClick(v.note)}} r0={180} r1={120} d0={i * 30} d1={((i+1) * 30)} selectable={true}/>
+                return <CircleOfFifthsWedge extraClasses="major" onClick={() => {handleClick(v.note)}} r0={180} r1={120} d0={i * 30} d1={((i+1) * 30)} selectable={true}/>
             })
         }
         {
             ...CIRCLE_OF_FIFTHS_DATA.map((v, i) => {
-                return <CircleOfFifthsWedge onClick={() => {handleClick(v.relativeMinor)}} r0={120} r1={80} d0={i * 30} d1={((i+1) * 30)} selectable={true}/>
+                return <CircleOfFifthsWedge extraClasses="minor" onClick={() => {handleClick(v.relativeMinor)}} r0={120} r1={80} d0={i * 30} d1={((i+1) * 30)} selectable={true}/>
             })
         }
         {
             ...CIRCLE_OF_FIFTHS_DATA.map((v, i) => {
-                return <CircleOfFifthsWedge r0={80} r1={50} d0={i * 30} d1={((i+1) * 30)} />
+                return <CircleOfFifthsWedge extraClasses="diminished" r0={80} r1={50} d0={i * 30} d1={((i+1) * 30)} />
             })
         }
         </g>
@@ -93,14 +93,21 @@ type CircleOfFifthsWedgeProps = {
      * The callback function to be called when the CircleOfFifthsWedge is clicked.
      */
     onClick?: () => void;
+    /**
+     * Set this to true if the wedge is selectable.
+     */
     selectable?: boolean;
+    /**
+     * Takes a string of space-separated class names to be added to the class list for this wedge.
+     */
+    extraClasses?: string;
 }
 
 const CircleOfFifthsWedge = (props: CircleOfFifthsWedgeProps) => {
     return (
         <path
             d={segmentPath(200, 200, props.r0, props.r1, props.d0, props.d1)}
-            className={`cf-theme cf-wedge ${props.selectable? "selectable" : ""}`}
+            className={`cf-theme cf-wedge ${props.selectable? "selectable" : ""} ${props.extraClasses}`}
             // stroke="black"
             // strokeWidth="2"
             // fill="#84CC16"
