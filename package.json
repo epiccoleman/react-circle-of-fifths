@@ -1,6 +1,6 @@
 {
   "name": "react-circle-of-fifths",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An interactive Circle of Fifths component for React",
   "main": "lib/index.js",
   "repository": "https://github.com/epiccoleman/react-circle-of-fifths",

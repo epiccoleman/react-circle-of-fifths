@@ -65,7 +65,7 @@ The Circle of Fifths component ships with a default stylesheet and color theme. 
 
 You can check out the [demo app](https://github.com/epiccoleman/react-circle-of-fifths/tree/main/src/demo-app/) for an example of how this works.
 
-Note: One planned feature for this component is to allow styling via props. If this is something you'd use, drop me a line or
+Note: One planned feature for this component is to allow styling via props. If this is something you'd use, drop me a line or comment on [the issue tracking this feature](https://github.com/epiccoleman/react-circle-of-fifths/issues/1) at this repo's Github page.
 
 # Note
 
