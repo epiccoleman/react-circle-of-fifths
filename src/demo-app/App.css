@@ -1,0 +1,14 @@
+.cf-theme {
+    --cf-major-keys-fill: #222222;
+    --cf-major-keys-fill-hover: #444444;
+    --cf-minor-keys-fill: #444444;
+    --cf-minor-keys-fill-hover: #666666;
+    --cf-diminished-keys-fill: #888888;
+    --cf-stroke-color: white;
+    --cf-stroke-width: 1px;
+    --cf-text-color: white;
+}
+
+.cf-text {
+    font-family: sans-serif;
+}

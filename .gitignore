@@ -1,3 +1,5 @@
 node_modules/
 /lib
 src/*.d.ts
+.parcel-cache
+dist
