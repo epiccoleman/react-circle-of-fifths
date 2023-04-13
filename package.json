@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "prepare": "npm run build",
-    "build": "rm -rf ./lib && tsc && cp ./src/CircleOfFifths.css lib/"
+    "build": "rm -rf ./lib && tsc && cp ./src/CircleOfFifths.css lib/ && cp ./README.md ./lib/ && cp ./LICENSE.txt ./lib"
   },
   "peerDependencies": {
     "react": "^18.2.0",

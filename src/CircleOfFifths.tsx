@@ -21,7 +21,6 @@ const handleClick = (keySelection) => {
     if (props.handleKeySelection) {
         props.handleKeySelection(keySelection);
     }
-    // console.log(`you clicked: ${keySelection}`)
 }
 
 const CF_SIZE = 400;
