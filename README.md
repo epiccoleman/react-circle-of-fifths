@@ -18,14 +18,14 @@ Or yarn:
 yarn add react-circle-of-fifths
 ```
 
-Import the CircleOfFifths component, and render it!
+Import the CircleOfFifths component...
 ``` tsx
 import { CircleOfFifths } from "react-circle-of-fifths";
 ```
 
 And render it!
 ``` tsx
-    <CircleOfFifths handleKeySelection={setKey}/>
+    <CircleOfFifths />
 ```
 
 
