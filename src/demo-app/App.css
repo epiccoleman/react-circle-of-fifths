@@ -1,7 +1,11 @@
-.cf-wedge {
-    --cf-major-keys-fill: blue;
+.cf-theme {
+    --cf-major-keys-fill: #222222;
+    --cf-major-keys-fill-hover: #444444;
+    --cf-stroke-color: white;
+    --cf-stroke-width: 1px;
+    --cf-text-color: white;
 }
 
 .cf-text {
-    --cf-text-color: white
+    font-family: sans-serif;
 }
