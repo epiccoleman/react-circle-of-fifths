@@ -12,7 +12,6 @@
     --cf-text-color: black;
 }
 
-
 .cf-wedge {
     fill: var(--cf-major-keys-fill);
     stroke: var(--cf-stroke-color);
@@ -28,5 +27,23 @@
 }
 
 .cf-wedge.selected {
+    fill: var(--cf-major-keys-fill-selected);
+}
+
+.cf-wedge.cf-theme {
+    fill: var(--cf-major-keys-fill);
+    stroke: var(--cf-stroke-color);
+    stroke-width: var(--cf-stroke-width);
+}
+
+.cf-text.cf-theme {
+    fill: var(--cf-text-color);
+}
+
+.cf-wedge.cf-theme.selectable:hover {
+    fill: var(--cf-major-keys-fill-hover);
+}
+
+.cf-wedge.cf-theme.selected {
     fill: var(--cf-major-keys-fill-selected);
 }

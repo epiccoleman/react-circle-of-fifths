@@ -52,19 +52,19 @@ return <svg version="1.1"
         {
             ...CIRCLE_OF_FIFTHS_DATA.map((v, i) => {
                 const [center_x, center_y] = polarToCartesian(200, 200, 150, (i *30))
-                return <text className="cf-text" style={{textAnchor: "middle", dominantBaseline: "central", pointerEvents: "none"}} x={center_x} y={center_y} >{v.note}</text>
+                return <text className="cf-theme cf-text" style={{textAnchor: "middle", dominantBaseline: "central", pointerEvents: "none"}} x={center_x} y={center_y} >{v.note}</text>
             })
         }
          {
             ...CIRCLE_OF_FIFTHS_DATA.map((v, i) => {
                 const [center_x, center_y] = polarToCartesian(200, 200, 100, (i *30))
-                return <text className="cf-text" style={{textAnchor: "middle", dominantBaseline: "central", fontSize: "small", pointerEvents: "none"}} x={center_x} y={center_y} >{v.relativeMinor}</text>
+                return <text className="cf-theme cf-text" style={{textAnchor: "middle", dominantBaseline: "central", fontSize: "small", pointerEvents: "none"}} x={center_x} y={center_y} >{v.relativeMinor}</text>
             })
         }
         {
             ...CIRCLE_OF_FIFTHS_DATA.map((v, i) => {
                 const [center_x, center_y] = polarToCartesian(200, 200, 65, (i *30))
-                return <text className="cf-text" style={{textAnchor: "middle", dominantBaseline: "central", fontSize: "xx-small", pointerEvents: "none"}} x={center_x} y={center_y} >{v.diminished}</text>
+                return <text className="cf-theme cf-text" style={{textAnchor: "middle", dominantBaseline: "central", fontSize: "xx-small", pointerEvents: "none"}} x={center_x} y={center_y} >{v.diminished}</text>
             })
         }
         </g>
@@ -100,7 +100,7 @@ const CircleOfFifthsWedge = (props: CircleOfFifthsWedgeProps) => {
     return (
         <path
             d={segmentPath(200, 200, props.r0, props.r1, props.d0, props.d1)}
-            className={`cf-wedge ${props.selectable? "selectable" : ""}`}
+            className={`cf-theme cf-wedge ${props.selectable? "selectable" : ""}`}
             // stroke="black"
             // strokeWidth="2"
             // fill="#84CC16"
