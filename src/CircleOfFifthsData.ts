@@ -19,8 +19,8 @@ const CIRCLE_OF_FIFTHS_DATA = [
     },
     {
         note: "G♭",
-        relativeMinor: "D♯m",
-        diminished: "F♯°",
+        relativeMinor: "E♭m",
+        diminished: "F°",
         keySignature: "♯♯♯♯♯♯"
     },
     {
@@ -62,7 +62,7 @@ const CIRCLE_OF_FIFTHS_DATA = [
     {
         note: "G",
         relativeMinor: "Em",
-        diminished: "F♯°",
+        diminished: "F°",
         keySignature: "♯"
     },
     {
