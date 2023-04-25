@@ -1,73 +1,97 @@
 const CIRCLE_OF_FIFTHS_DATA = [
     {
-        note: "A",
-        relativeMinor: "F♯m",
+        displayMajor: "A",
+        idMajor: "A",
+        displayRelativeMinor: "F♯m",
+        idMinor: "Fsm",
         diminished: "G♯°",
         keySignature: "♯♯♯"
     },
     {
-        note: "E",
-        relativeMinor: "C♯m",
+        displayMajor: "E",
+        idMajor:  "E",
+        displayRelativeMinor: "C♯m",
+        idMinor: "Csm",
         diminished: "D♯°",
         keySignature: "♯♯♯♯"
     },
     {
-        note: "B",
-        relativeMinor: "G♯m",
+        displayMajor: "B",
+        idMajor: "B",
+        displayRelativeMinor: "G♯m",
+        idMinor: "Gsm",
         diminished: "A♯°",
         keySignature: "♯♯♯♯♯"
     },
     {
-        note: "G♭",
-        relativeMinor: "E♭m",
+        displayMajor: "G♭",
+        idMajor: "Gb",
+        displayRelativeMinor: "E♭m",
+        idMinor: "Ebm",
         diminished: "F°",
         keySignature: "♯♯♯♯♯♯"
     },
     {
-        note: "D♭",
-        relativeMinor: "B♭m",
+        displayMajor: "D♭",
+        idMajor: "Db",
+        displayRelativeMinor: "B♭m",
+        idMinor: "Bbm",
         diminished: "C°",
         keySignature: "♭♭♭♭♭"
     },
     {
-        note: "A♭",
-        relativeMinor: "Fm",
+        displayMajor: "A♭",
+        idMajor: "Ab",
+        displayRelativeMinor: "Fm",
+        idMinor: "Fm",
         diminished: "G°",
         keySignature: "♭♭♭♭"
     },
     {
-        note: "E♭",
-        relativeMinor: "Cm",
+        displayMajor: "E♭",
+        idMajor: "Eb",
+        displayRelativeMinor: "Cm",
+        idMinor: "Cm",
         diminished: "D°",
         keySignature: "♭♭♭"
     },
     {
-        note: "B♭",
-        relativeMinor: "Gm",
+        displayMajor: "B♭",
+        idMajor: "Bb",
+        displayRelativeMinor: "Gm",
+        idMinor: "Gm",
         diminished: "A°",
         keySignature: "♭♭"
     },
     {
-        note: "F",
-        relativeMinor: "Dm",
+        displayMajor: "F",
+        idMajor: "F",
+        displayRelativeMinor: "Dm",
+        idMinor: "Dm",
         diminished: "E°",
         keySignature: "♭"
     },
     {
-        note: "C",
-        relativeMinor: "Am",
+        displayMajor: "C",
+        idMajor: "C",
+        displayRelativeMinor: "Am",
+        idMinor: "Am",
         diminished: "B°",
         keySignature: ""
     },
     {
-        note: "G",
-        relativeMinor: "Em",
+        displayMajor: "G",
+        idMajor: "G",
+        displayRelativeMinor: "Em",
+        idMinor: "Em",
         diminished: "F°",
         keySignature: "♯"
     },
     {
-        note: "D",
-        relativeMinor: "Bm",
+        displayMajor: "D",
+        idMajor: "D",
+        displayRelativeMinor: "Bm",
+        idMinor: "Bm",
         diminished: "C♯°",
         keySignature: "♯♯"
     },

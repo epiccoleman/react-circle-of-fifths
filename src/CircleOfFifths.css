@@ -32,7 +32,12 @@
     fill: var(--cf-major-keys-fill-selected);
 }
 
-/* configuration for themed wedges and text. supersedes defaults */
+.cf-wedge.selected:hover {
+    fill: var(--cf-major-keys-fill-selected);
+}
+
+/* configuration for themed wedges and text. supersedes defaults. most of these
+   are currently rendered useless by the following tonality-specific declarations.  */
 .cf-wedge.cf-theme {
     fill: var(--cf-major-keys-fill);
     stroke: var(--cf-stroke-color);
@@ -66,6 +71,10 @@
     fill: var(--cf-major-keys-fill-selected);
 }
 
+.cf-wedge.cf-theme.major.selected:hover {
+    fill: var(--cf-major-keys-fill-selected);
+}
+
 /* theme config for minor keys ring */
 .cf-wedge.cf-theme.minor {
     fill: var(--cf-minor-keys-fill);
@@ -76,6 +85,10 @@
 }
 
 .cf-wedge.cf-theme.minor.selected {
+    fill: var(--cf-minor-keys-fill-selected);
+}
+
+.cf-wedge.cf-theme.minor.selected:hover {
     fill: var(--cf-minor-keys-fill-selected);
 }
 

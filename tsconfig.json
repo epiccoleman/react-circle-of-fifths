@@ -11,7 +11,7 @@
     "jsx": "react",
     "typeRoots": [
       "src/index.d.ts",
-      "node_modules/@types"
+      "node_modules/@types",
     ]
   },
   "include": [
@@ -20,6 +20,8 @@
   ],
   "exclude": [
     "node_modules",
-    "./src/demo-app/**/*"
+    "./src/demo-app/**/*",
+    "./src/**/*.test.ts",
+    "./src/**/*.test.tsx",
   ]
 }

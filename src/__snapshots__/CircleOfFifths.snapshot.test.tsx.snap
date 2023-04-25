@@ -1,0 +1,1000 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <svg
+        version="1.1"
+        viewBox="0 0 400 400"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          style="transform: rotate(-15deg); transform-origin: 200px 200px;"
+        >
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M380.00,200.00A180,180,0,0,1,355.88,290.00L303.92,260.00A120,120,0,0,0,320.00,200.00Z"
+            id="A"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M320.00,200.00A120,120,0,0,1,303.92,260.00L269.28,240.00A80,80,0,0,0,280.00,200.00Z"
+            id="Fsm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M280.00,200.00A80,80,0,0,1,269.28,240.00L243.30,225.00A50,50,0,0,0,250.00,200.00Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M355.88,290.00A180,180,0,0,1,290.00,355.88L260.00,303.92A120,120,0,0,0,303.92,260.00Z"
+            id="E"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M303.92,260.00A120,120,0,0,1,260.00,303.92L240.00,269.28A80,80,0,0,0,269.28,240.00Z"
+            id="Csm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M269.28,240.00A80,80,0,0,1,240.00,269.28L225.00,243.30A50,50,0,0,0,243.30,225.00Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M290.00,355.88A180,180,0,0,1,200.00,380.00L200.00,320.00A120,120,0,0,0,260.00,303.92Z"
+            id="B"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M260.00,303.92A120,120,0,0,1,200.00,320.00L200.00,280.00A80,80,0,0,0,240.00,269.28Z"
+            id="Gsm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M240.00,269.28A80,80,0,0,1,200.00,280.00L200.00,250.00A50,50,0,0,0,225.00,243.30Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M200.00,380.00A180,180,0,0,1,110.00,355.88L140.00,303.92A120,120,0,0,0,200.00,320.00Z"
+            id="Gb"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M200.00,320.00A120,120,0,0,1,140.00,303.92L160.00,269.28A80,80,0,0,0,200.00,280.00Z"
+            id="Ebm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M200.00,280.00A80,80,0,0,1,160.00,269.28L175.00,243.30A50,50,0,0,0,200.00,250.00Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M110.00,355.88A180,180,0,0,1,44.115,290.00L96.077,260.00A120,120,0,0,0,140.00,303.92Z"
+            id="Db"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M140.00,303.92A120,120,0,0,1,96.077,260.00L130.72,240.00A80,80,0,0,0,160.00,269.28Z"
+            id="Bbm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M160.00,269.28A80,80,0,0,1,130.72,240.00L156.70,225.00A50,50,0,0,0,175.00,243.30Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M44.115,290.00A180,180,0,0,1,20.000,200.00L80.000,200.00A120,120,0,0,0,96.077,260.00Z"
+            id="Ab"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M96.077,260.00A120,120,0,0,1,80.000,200.00L120.00,200.00A80,80,0,0,0,130.72,240.00Z"
+            id="Fm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M130.72,240.00A80,80,0,0,1,120.00,200.00L150.00,200.00A50,50,0,0,0,156.70,225.00Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M20.000,200.00A180,180,0,0,1,44.115,110.00L96.077,140.00A120,120,0,0,0,80.000,200.00Z"
+            id="Eb"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M80.000,200.00A120,120,0,0,1,96.077,140.00L130.72,160.00A80,80,0,0,0,120.00,200.00Z"
+            id="Cm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M120.00,200.00A80,80,0,0,1,130.72,160.00L156.70,175.00A50,50,0,0,0,150.00,200.00Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M44.115,110.00A180,180,0,0,1,110.00,44.115L140.00,96.077A120,120,0,0,0,96.077,140.00Z"
+            id="Bb"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M96.077,140.00A120,120,0,0,1,140.00,96.077L160.00,130.72A80,80,0,0,0,130.72,160.00Z"
+            id="Gm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M130.72,160.00A80,80,0,0,1,160.00,130.72L175.00,156.70A50,50,0,0,0,156.70,175.00Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M110.00,44.115A180,180,0,0,1,200.00,20.000L200.00,80.000A120,120,0,0,0,140.00,96.077Z"
+            id="F"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M140.00,96.077A120,120,0,0,1,200.00,80.000L200.00,120.00A80,80,0,0,0,160.00,130.72Z"
+            id="Dm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M160.00,130.72A80,80,0,0,1,200.00,120.00L200.00,150.00A50,50,0,0,0,175.00,156.70Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M200.00,20.000A180,180,0,0,1,290.00,44.115L260.00,96.077A120,120,0,0,0,200.00,80.000Z"
+            id="C"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M200.00,80.000A120,120,0,0,1,260.00,96.077L240.00,130.72A80,80,0,0,0,200.00,120.00Z"
+            id="Am"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M200.00,120.00A80,80,0,0,1,240.00,130.72L225.00,156.70A50,50,0,0,0,200.00,150.00Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M290.00,44.115A180,180,0,0,1,355.88,110.00L303.92,140.00A120,120,0,0,0,260.00,96.077Z"
+            id="G"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M260.00,96.077A120,120,0,0,1,303.92,140.00L269.28,160.00A80,80,0,0,0,240.00,130.72Z"
+            id="Em"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M240.00,130.72A80,80,0,0,1,269.28,160.00L243.30,175.00A50,50,0,0,0,225.00,156.70Z"
+          />
+          <path
+            class="cf-theme cf-wedge selectable major "
+            d="M355.88,110.00A180,180,0,0,1,380.00,200.00L320.00,200.00A120,120,0,0,0,303.92,140.00Z"
+            id="D"
+          />
+          <path
+            class="cf-theme cf-wedge selectable minor "
+            d="M303.92,140.00A120,120,0,0,1,320.00,200.00L280.00,200.00A80,80,0,0,0,269.28,160.00Z"
+            id="Bm"
+          />
+          <path
+            class="cf-theme cf-wedge  diminished"
+            d="M269.28,160.00A80,80,0,0,1,280.00,200.00L250.00,200.00A50,50,0,0,0,243.30,175.00Z"
+          />
+        </g>
+        <g>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="350"
+            y="200"
+          >
+            A
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="300"
+            y="200"
+          >
+            F♯m
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="265"
+            y="200"
+          >
+            G♯°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="329.9038105676658"
+            y="275"
+          >
+            E
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="286.6025403784439"
+            y="250"
+          >
+            C♯m
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="256.29165124598853"
+            y="232.5"
+          >
+            D♯°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="275"
+            y="329.9038105676658"
+          >
+            B
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="250"
+            y="286.60254037844385"
+          >
+            G♯m
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="232.5"
+            y="256.29165124598853"
+          >
+            A♯°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="200"
+            y="350"
+          >
+            G♭
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="200"
+            y="300"
+          >
+            E♭m
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="200"
+            y="265"
+          >
+            F°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="125.00000000000003"
+            y="329.9038105676658"
+          >
+            D♭
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="150.00000000000003"
+            y="286.6025403784439"
+          >
+            B♭m
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="167.5"
+            y="256.29165124598853"
+          >
+            C°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="70.0961894323342"
+            y="275"
+          >
+            A♭
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="113.39745962155612"
+            y="250"
+          >
+            Fm
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="143.70834875401147"
+            y="232.5"
+          >
+            G°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="50"
+            y="200.00000000000003"
+          >
+            E♭
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="100"
+            y="200"
+          >
+            Cm
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="135"
+            y="200"
+          >
+            D°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="70.0961894323342"
+            y="124.99999999999999"
+          >
+            B♭
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="113.39745962155614"
+            y="150"
+          >
+            Gm
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="143.7083487540115"
+            y="167.5"
+          >
+            A°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="124.99999999999993"
+            y="70.09618943233423"
+          >
+            F
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="149.99999999999994"
+            y="113.39745962155615"
+          >
+            Dm
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="167.49999999999997"
+            y="143.7083487540115"
+          >
+            E°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="199.99999999999997"
+            y="50"
+          >
+            C
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="199.99999999999997"
+            y="100"
+          >
+            Am
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="200"
+            y="135"
+          >
+            B°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="275"
+            y="70.0961894323342"
+          >
+            G
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="250"
+            y="113.39745962155614"
+          >
+            Em
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="232.5"
+            y="143.7083487540115"
+          >
+            F°
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+            x="329.90381056766574"
+            y="124.99999999999993"
+          >
+            D
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+            x="286.60254037844385"
+            y="149.99999999999994"
+          >
+            Bm
+          </text>
+          <text
+            class="cf-theme cf-text"
+            style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+            x="256.2916512459885"
+            y="167.49999999999997"
+          >
+            C♯°
+          </text>
+        </g>
+      </svg>
+    </div>
+  </body>,
+  "container": <div>
+    <svg
+      version="1.1"
+      viewBox="0 0 400 400"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        style="transform: rotate(-15deg); transform-origin: 200px 200px;"
+      >
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M380.00,200.00A180,180,0,0,1,355.88,290.00L303.92,260.00A120,120,0,0,0,320.00,200.00Z"
+          id="A"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M320.00,200.00A120,120,0,0,1,303.92,260.00L269.28,240.00A80,80,0,0,0,280.00,200.00Z"
+          id="Fsm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M280.00,200.00A80,80,0,0,1,269.28,240.00L243.30,225.00A50,50,0,0,0,250.00,200.00Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M355.88,290.00A180,180,0,0,1,290.00,355.88L260.00,303.92A120,120,0,0,0,303.92,260.00Z"
+          id="E"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M303.92,260.00A120,120,0,0,1,260.00,303.92L240.00,269.28A80,80,0,0,0,269.28,240.00Z"
+          id="Csm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M269.28,240.00A80,80,0,0,1,240.00,269.28L225.00,243.30A50,50,0,0,0,243.30,225.00Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M290.00,355.88A180,180,0,0,1,200.00,380.00L200.00,320.00A120,120,0,0,0,260.00,303.92Z"
+          id="B"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M260.00,303.92A120,120,0,0,1,200.00,320.00L200.00,280.00A80,80,0,0,0,240.00,269.28Z"
+          id="Gsm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M240.00,269.28A80,80,0,0,1,200.00,280.00L200.00,250.00A50,50,0,0,0,225.00,243.30Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M200.00,380.00A180,180,0,0,1,110.00,355.88L140.00,303.92A120,120,0,0,0,200.00,320.00Z"
+          id="Gb"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M200.00,320.00A120,120,0,0,1,140.00,303.92L160.00,269.28A80,80,0,0,0,200.00,280.00Z"
+          id="Ebm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M200.00,280.00A80,80,0,0,1,160.00,269.28L175.00,243.30A50,50,0,0,0,200.00,250.00Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M110.00,355.88A180,180,0,0,1,44.115,290.00L96.077,260.00A120,120,0,0,0,140.00,303.92Z"
+          id="Db"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M140.00,303.92A120,120,0,0,1,96.077,260.00L130.72,240.00A80,80,0,0,0,160.00,269.28Z"
+          id="Bbm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M160.00,269.28A80,80,0,0,1,130.72,240.00L156.70,225.00A50,50,0,0,0,175.00,243.30Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M44.115,290.00A180,180,0,0,1,20.000,200.00L80.000,200.00A120,120,0,0,0,96.077,260.00Z"
+          id="Ab"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M96.077,260.00A120,120,0,0,1,80.000,200.00L120.00,200.00A80,80,0,0,0,130.72,240.00Z"
+          id="Fm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M130.72,240.00A80,80,0,0,1,120.00,200.00L150.00,200.00A50,50,0,0,0,156.70,225.00Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M20.000,200.00A180,180,0,0,1,44.115,110.00L96.077,140.00A120,120,0,0,0,80.000,200.00Z"
+          id="Eb"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M80.000,200.00A120,120,0,0,1,96.077,140.00L130.72,160.00A80,80,0,0,0,120.00,200.00Z"
+          id="Cm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M120.00,200.00A80,80,0,0,1,130.72,160.00L156.70,175.00A50,50,0,0,0,150.00,200.00Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M44.115,110.00A180,180,0,0,1,110.00,44.115L140.00,96.077A120,120,0,0,0,96.077,140.00Z"
+          id="Bb"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M96.077,140.00A120,120,0,0,1,140.00,96.077L160.00,130.72A80,80,0,0,0,130.72,160.00Z"
+          id="Gm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M130.72,160.00A80,80,0,0,1,160.00,130.72L175.00,156.70A50,50,0,0,0,156.70,175.00Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M110.00,44.115A180,180,0,0,1,200.00,20.000L200.00,80.000A120,120,0,0,0,140.00,96.077Z"
+          id="F"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M140.00,96.077A120,120,0,0,1,200.00,80.000L200.00,120.00A80,80,0,0,0,160.00,130.72Z"
+          id="Dm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M160.00,130.72A80,80,0,0,1,200.00,120.00L200.00,150.00A50,50,0,0,0,175.00,156.70Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M200.00,20.000A180,180,0,0,1,290.00,44.115L260.00,96.077A120,120,0,0,0,200.00,80.000Z"
+          id="C"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M200.00,80.000A120,120,0,0,1,260.00,96.077L240.00,130.72A80,80,0,0,0,200.00,120.00Z"
+          id="Am"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M200.00,120.00A80,80,0,0,1,240.00,130.72L225.00,156.70A50,50,0,0,0,200.00,150.00Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M290.00,44.115A180,180,0,0,1,355.88,110.00L303.92,140.00A120,120,0,0,0,260.00,96.077Z"
+          id="G"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M260.00,96.077A120,120,0,0,1,303.92,140.00L269.28,160.00A80,80,0,0,0,240.00,130.72Z"
+          id="Em"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M240.00,130.72A80,80,0,0,1,269.28,160.00L243.30,175.00A50,50,0,0,0,225.00,156.70Z"
+        />
+        <path
+          class="cf-theme cf-wedge selectable major "
+          d="M355.88,110.00A180,180,0,0,1,380.00,200.00L320.00,200.00A120,120,0,0,0,303.92,140.00Z"
+          id="D"
+        />
+        <path
+          class="cf-theme cf-wedge selectable minor "
+          d="M303.92,140.00A120,120,0,0,1,320.00,200.00L280.00,200.00A80,80,0,0,0,269.28,160.00Z"
+          id="Bm"
+        />
+        <path
+          class="cf-theme cf-wedge  diminished"
+          d="M269.28,160.00A80,80,0,0,1,280.00,200.00L250.00,200.00A50,50,0,0,0,243.30,175.00Z"
+        />
+      </g>
+      <g>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="350"
+          y="200"
+        >
+          A
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="300"
+          y="200"
+        >
+          F♯m
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="265"
+          y="200"
+        >
+          G♯°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="329.9038105676658"
+          y="275"
+        >
+          E
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="286.6025403784439"
+          y="250"
+        >
+          C♯m
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="256.29165124598853"
+          y="232.5"
+        >
+          D♯°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="275"
+          y="329.9038105676658"
+        >
+          B
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="250"
+          y="286.60254037844385"
+        >
+          G♯m
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="232.5"
+          y="256.29165124598853"
+        >
+          A♯°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="200"
+          y="350"
+        >
+          G♭
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="200"
+          y="300"
+        >
+          E♭m
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="200"
+          y="265"
+        >
+          F°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="125.00000000000003"
+          y="329.9038105676658"
+        >
+          D♭
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="150.00000000000003"
+          y="286.6025403784439"
+        >
+          B♭m
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="167.5"
+          y="256.29165124598853"
+        >
+          C°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="70.0961894323342"
+          y="275"
+        >
+          A♭
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="113.39745962155612"
+          y="250"
+        >
+          Fm
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="143.70834875401147"
+          y="232.5"
+        >
+          G°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="50"
+          y="200.00000000000003"
+        >
+          E♭
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="100"
+          y="200"
+        >
+          Cm
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="135"
+          y="200"
+        >
+          D°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="70.0961894323342"
+          y="124.99999999999999"
+        >
+          B♭
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="113.39745962155614"
+          y="150"
+        >
+          Gm
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="143.7083487540115"
+          y="167.5"
+        >
+          A°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="124.99999999999993"
+          y="70.09618943233423"
+        >
+          F
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="149.99999999999994"
+          y="113.39745962155615"
+        >
+          Dm
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="167.49999999999997"
+          y="143.7083487540115"
+        >
+          E°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="199.99999999999997"
+          y="50"
+        >
+          C
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="199.99999999999997"
+          y="100"
+        >
+          Am
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="200"
+          y="135"
+        >
+          B°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="275"
+          y="70.0961894323342"
+        >
+          G
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="250"
+          y="113.39745962155614"
+        >
+          Em
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="232.5"
+          y="143.7083487540115"
+        >
+          F°
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; pointer-events: none;"
+          x="329.90381056766574"
+          y="124.99999999999993"
+        >
+          D
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: small; pointer-events: none;"
+          x="286.60254037844385"
+          y="149.99999999999994"
+        >
+          Bm
+        </text>
+        <text
+          class="cf-theme cf-text"
+          style="text-anchor: middle; dominant-baseline: central; font-size: xx-small; pointer-events: none;"
+          x="256.2916512459885"
+          y="167.49999999999997"
+        >
+          C♯°
+        </text>
+      </g>
+    </svg>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

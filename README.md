@@ -28,13 +28,14 @@ And render it!
     <CircleOfFifths />
 ```
 
+The CircleOfFifths takes an optional callback, which will be passed an object with information about the currently selected key whenever it selection changes. One way to take advantage of
+this is to use a `useState` hook in the component that renders the CircleOfFifths component.
 
-The CircleOfFifths takes an optional callback, which will be passed the currently selected key when the selection changes. One way to take advantage of
-this is to use a `useState` hook in the component that renders the CircleOfFifths component:
+Note that if you want to leave this undefined at the start, and you're using Typescript, you'll need to provide a type argument to useState like so:
 
 ``` tsx
 export function App() {
-  const [key, setKey] = useState("C");
+  const [key, setKey] = useState<CircleOfFifthsSelection | undefined>();
 
   return <>
     <h1 style={{textAlign: "center"}}>{key}</h1>
