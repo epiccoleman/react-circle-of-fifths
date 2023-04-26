@@ -73,3 +73,11 @@ Note: One planned feature for this component is to allow styling via props. If t
 This project is currently in early development. The component is fairly simple and should be ready for basic usage. However, some planned features are still missing. If you'd like to help, file an issue or email me at eric@epiccoleman.com!
 
 If you're interested in learning more about the development of this component, I've been writing a series about it at [my personal site](https://epiccoleman.com/posts/2023-04-04-project-theory-dashboard.html).
+
+# Funding
+
+This project is licensed with the MIT license - which means you are free to use it for any purpose, free of charge, gratis, free as in beer, etc.
+
+This project is also solely developed during the limited free time of a father of three with too many hobbies.
+
+If you find this component valuable, time-saving, or just plain cool, please consider sponsoring the development of this project via [GitHub Sponsors](https://github.com/sponsors/epiccoleman). Any contribution you make will be greatly appreciated!
