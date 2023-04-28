@@ -28,7 +28,7 @@ const CIRCLE_OF_FIFTHS_DATA = [
         idMajor: "Gb",
         displayRelativeMinor: "E♭m",
         idMinor: "Ebm",
-        diminished: "F°",
+        diminished: "F♯°",
         keySignature: "♯♯♯♯♯♯"
     },
     {
