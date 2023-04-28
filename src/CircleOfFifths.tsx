@@ -34,6 +34,7 @@ export type CircleOfFifthsProps = {
    * @param selection
    */
   handleKeySelection?: (selection: CircleOfFifthsSelection ) => void;
+  svgRef?
 };
 
 export const idToSelection = (selectionId): CircleOfFifthsSelection => {
@@ -85,6 +86,7 @@ export const CircleOfFifths = (props: CircleOfFifthsProps) => {
 
   return (
     <svg
+      ref={props.svgRef}
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox={`0 0 ${CF_SIZE} ${CF_SIZE}`}
