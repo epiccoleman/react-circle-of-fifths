@@ -28,6 +28,7 @@ And render it!
     <CircleOfFifths />
 ```
 
+# Consuming Selection
 The CircleOfFifths takes an optional callback, which will be passed an object with information about the currently selected key whenever it selection changes. One way to take advantage of
 this is to use a `useState` hook in the component that renders the CircleOfFifths component.
 
@@ -41,6 +42,26 @@ export function App() {
     <h1 style={{textAlign: "center"}}>{key}</h1>
     <CircleOfFifths handleKeySelection={setKey}/>
   </>
+```
+
+The `CircleOfFifthSelection` object provides information about the currently selected key to the given callback. Currently, there are three fields (for more up-to-date info, see the [type definition](https://github.com/epiccoleman/react-circle-of-fifths/blob/main/src/CircleOfFifths.tsx#L14)). The `tonic` property is particularly useful if you're working with [tonal](https://github.com/tonaljs/tonal), as it's formatted to be consumable by the various APIs that tonal provides.
+```
+export type CircleOfFifthsSelection = {
+    /**
+     * The tonic note of the selected key. This string is formatted to be suitable
+     * for calls to tonal.js.
+     */
+    tonic: string;
+    /**
+     * A nicely formatted string of the given note with symbols for sharps and flats,
+     * suitable for display.
+     */
+    tonicDisplay: string;
+    /**
+     * The tonality of the selected key, either "major" or "minor".
+     */
+    tonality: "major" | "minor";
+}
 ```
 
 The default size of the SVG element this component renders is quite large, so you'll probably want to adjust the size via CSS. See the [demo application](https://github.com/epiccoleman/react-circle-of-fifths/tree/main/src/demo-app/) for a minimal example of using and styling the Circle.
