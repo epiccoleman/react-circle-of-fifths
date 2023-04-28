@@ -7,7 +7,7 @@
     "strictNullChecks": true,
     "removeComments": true,
     "declaration": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "jsx": "react",
     "typeRoots": [
       "src/index.d.ts",

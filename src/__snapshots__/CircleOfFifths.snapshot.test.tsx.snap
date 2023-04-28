@@ -277,7 +277,7 @@ exports[`renders correctly 1`] = `
             x="200"
             y="265"
           >
-            F°
+            F♯°
           </text>
           <text
             class="cf-theme cf-text"
@@ -748,7 +748,7 @@ exports[`renders correctly 1`] = `
           x="200"
           y="265"
         >
-          F°
+          F♯°
         </text>
         <text
           class="cf-theme cf-text"
