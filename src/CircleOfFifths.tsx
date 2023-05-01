@@ -2,31 +2,12 @@
 
 import * as React from "react";
 
-import { polarToCartesian, segmentPath } from "./CFMathUtils";
 import CIRCLE_OF_FIFTHS_DATA from "./CircleOfFifthsData";
-
-import "./CircleOfFifths.css";
+import { polarToCartesian, segmentPath } from "./CFMathUtils";
+import { CircleOfFifthsSelection } from "./CircleOfFifthsSelection";
 import { useState } from "react";
 
-/**
- * Represents a selection made on the Circle of Fifths.
- */
-export type CircleOfFifthsSelection = {
-    /**
-     * The tonic note of the selected key. This string is formatted to be suitable
-     * for calls to tonal.js.
-     */
-    tonic: string;
-    /**
-     * A nicely formatted string of the given note with symbols for sharps and flats,
-     * suitable for display.
-     */
-    tonicDisplay: string;
-    /**
-     * The tonality of the selected key, either "major" or "minor".
-     */
-    tonality: "major" | "minor";
-}
+import "./CircleOfFifths.css";
 
 export type CircleOfFifthsProps = {
   /**

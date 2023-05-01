@@ -1,12 +1,14 @@
 .cf-theme {
-    --cf-major-keys-fill: #222222;
-    --cf-major-keys-fill-hover: #444444;
-    --cf-minor-keys-fill: #444444;
-    --cf-minor-keys-fill-hover: #666666;
-    --cf-diminished-keys-fill: #888888;
-    --cf-stroke-color: white;
-    --cf-stroke-width: 1px;
-    --cf-text-color: white;
+    --cf-major-keys-fill: #a3e635;
+    --cf-major-keys-fill-hover: #84cc16;
+    --cf-major-keys-fill-selected:  #65A30D;
+    --cf-minor-keys-fill: #bef264;
+    --cf-minor-keys-fill-hover: #a3e635;
+    --cf-minor-keys-fill-selected:  #65A30D;
+    --cf-diminished-keys-fill: #d9f99d;
+    --cf-stroke-color: black;
+    --cf-stroke-width: 2px;
+    --cf-text-color: black;
 }
 
 .cf-text {
