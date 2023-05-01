@@ -1,5 +1,6 @@
 import * as React from "react"
-import { CircleOfFifths, CircleOfFifthsSelection, idToSelection } from "./CircleOfFifths";
+import { CircleOfFifths, idToSelection } from "./CircleOfFifths";
+import { CircleOfFifthsSelection } from "./CircleOfFifthsSelection";
 import { render } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 

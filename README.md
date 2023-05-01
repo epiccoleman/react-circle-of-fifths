@@ -25,7 +25,7 @@ import { CircleOfFifths } from "react-circle-of-fifths";
 
 And render it!
 ``` tsx
-    <CircleOfFifths />
+<CircleOfFifths />
 ```
 
 # Consuming Selection
@@ -42,9 +42,10 @@ export function App() {
     <h1 style={{textAlign: "center"}}>{key}</h1>
     <CircleOfFifths handleKeySelection={setKey}/>
   </>
+}
 ```
 
-The `CircleOfFifthSelection` object provides information about the currently selected key to the given callback. Currently, there are three fields (for more up-to-date info, see the [type definition](https://github.com/epiccoleman/react-circle-of-fifths/blob/main/src/CircleOfFifths.tsx#L14)). The `tonic` property is particularly useful if you're working with [tonal](https://github.com/tonaljs/tonal), as it's formatted to be consumable by the various APIs that tonal provides.
+The `CircleOfFifthSelection` object provides information about the currently selected key to the given callback. Currently, there are three fields (for more up-to-date info, see the [type definition](https://github.com/epiccoleman/react-circle-of-fifths/blob/main/src/CircleOfFifthsSelection.tsx)). The `tonic` property is particularly useful if you're working with [tonal](https://github.com/tonaljs/tonal), as it's formatted to be consumable by the various APIs that tonal provides.
 ```
 export type CircleOfFifthsSelection = {
     /**

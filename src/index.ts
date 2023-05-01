@@ -1,1 +1,2 @@
-export { CircleOfFifths, CircleOfFifthsSelection } from './CircleOfFifths';
+export { CircleOfFifths } from './CircleOfFifths';
+export { CircleOfFifthsSelection } from './CircleOfFifthsSelection';
