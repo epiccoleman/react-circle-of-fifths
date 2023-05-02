@@ -1,7 +1,8 @@
 import * as React from "react";
 import { useState } from "react";
 
-import { CircleOfFifths, CircleOfFifthsSelection } from "../CircleOfFifths";
+import { CircleOfFifths } from "../CircleOfFifths";
+import { CircleOfFifthsSelection } from "../CircleOfFifthsSelection";
 
 import "./App.css"
 
